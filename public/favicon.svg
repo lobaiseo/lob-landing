@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366F1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Outer location pin -->
+  <path d="M32 2C16.536 2 4 14.536 4 30c0 20 28 32 28 32s28-12 28-32C60 14.536 47.464 2 32 2z" fill="url(#logoGradient)"/>
+  <!-- Inner circle cutout -->
+  <path d="M32 18c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12z" fill="white"/>
+  <!-- Arrow pointing up -->
+  <path d="M32 14l-10 12h6v12h8V26h6L32 14z" fill="url(#logoGradient)"/>
+</svg>

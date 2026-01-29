@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(copy \"c:\\\\Users\\\\meena\\\\Desktop\\\\lob landing page\\\\Untitled video - Made with Clipchamp \\(1\\).mp4\" \"c:\\\\Users\\\\meena\\\\Desktop\\\\lob landing page\\\\public\\\\assets\\\\hero.mp4\")",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(copy:*)",
+      "Bash(cmd /c copy \"c:\\\\Users\\\\meena\\\\Desktop\\\\lob landing page\\\\image.png\" \"c:\\\\Users\\\\meena\\\\Desktop\\\\lob landing page\\\\public\\\\assets\\\\scheduling-dashboard.png\")",
+      "Bash(cmd /c dir \"c:\\\\Users\\\\meena\\\\Desktop\\\\lob landing page\\\\public\\\\assets\\\\scheduling-dashboard.png\")",
+      "Bash(cmd /c \"copy /Y \"\"c:\\\\Users\\\\meena\\\\Desktop\\\\lob landing page\\\\image.png\"\" \"\"c:\\\\Users\\\\meena\\\\Desktop\\\\lob landing page\\\\public\\\\assets\\\\scheduling-dashboard.png\"\"\")",
+      "Bash(findstr:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit - LOBAISEO landing page\n\n- React 18 + TypeScript + Vite + Tailwind CSS\n- Framer Motion animations\n- Hero section with video background\n- Magic QR, Automated Posts, Pricing sections\n- About page with team and contact info\n- Responsive design with glassmorphism effects\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}

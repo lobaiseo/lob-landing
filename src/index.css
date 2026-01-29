@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body {
+    @apply bg-slate-900 text-white antialiased;
+    font-feature-settings: 'cv11', 'ss01';
+    font-variation-settings: 'opsz' 32;
+    min-height: 100%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  #root {
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-600 via-violet-600 to-primary-600 bg-clip-text text-transparent;
+  }
+
+  .gradient-text-electric {
+    @apply bg-gradient-electric bg-clip-text text-transparent;
+  }
+
+  .glass-effect {
+    @apply bg-white/10 backdrop-blur-lg border border-white/20;
+  }
+
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .glow-card {
+    @apply relative overflow-hidden rounded-2xl;
+  }
+
+  .glow-card::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-r from-primary-500/20 to-violet-500/20 opacity-0 transition-opacity duration-300;
+  }
+
+  .glow-card:hover::before {
+    @apply opacity-100;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Force header to stay fixed */
+header {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 9999 !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-primary-500 to-violet-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply from-primary-600 to-violet-700;
+}
