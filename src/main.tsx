@@ -19,6 +19,7 @@ import TermsOfServicePage from './pages/TermsOfServicePage.tsx'
 import CookiePolicyPage from './pages/CookiePolicyPage.tsx'
 import RefundPolicyPage from './pages/RefundPolicyPage.tsx'
 import GDPRCompliancePage from './pages/GDPRCompliancePage.tsx'
+import DataDeletionPage from './pages/DataDeletionPage.tsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -43,6 +44,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path="/cookies" element={<CookiePolicyPage />} />
         <Route path="/refunds" element={<RefundPolicyPage />} />
         <Route path="/gdpr" element={<GDPRCompliancePage />} />
+        <Route path="/data-deletion" element={<DataDeletionPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
