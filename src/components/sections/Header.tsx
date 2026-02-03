@@ -54,10 +54,10 @@ const Header = () => {
 
           {/* Desktop CTA Buttons */}
           <div className="hidden lg:flex items-center gap-4">
-            <a href="https://www.app.lobaiseo.com/login" className="font-semibold text-white/90 hover:text-white">
+            <a href="https://app.lobaiseo.com/login" className="font-semibold text-white/90 hover:text-white">
               Login
             </a>
-            <a href="https://www.app.lobaiseo.com/signup">
+            <a href="https://app.lobaiseo.com/signup">
               <Button size="md" className="shadow-xl">
                 Start Free Trial
               </Button>
@@ -89,10 +89,10 @@ const Header = () => {
                 </a>
               ))}
               <div className="pt-4 px-4 space-y-3 border-t border-white/20">
-                <a href="https://www.app.lobaiseo.com/login" className="block w-full py-3 font-semibold text-white hover:text-purple-300 text-center">
+                <a href="https://app.lobaiseo.com/login" className="block w-full py-3 font-semibold text-white hover:text-purple-300 text-center">
                   Login
                 </a>
-                <a href="https://www.app.lobaiseo.com/signup" className="block">
+                <a href="https://app.lobaiseo.com/signup" className="block">
                   <Button size="md" className="w-full">
                     Start Free Trial
                   </Button>

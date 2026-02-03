@@ -134,7 +134,7 @@ const HowItWorksSection = () => {
               Join 1,200+ businesses already growing with LOBAISEO
             </p>
             <div className="flex justify-center">
-              <a href="https://www.app.lobaiseo.com/signup" className="bg-white text-blue-600 font-semibold px-8 py-4 rounded-xl hover:shadow-xl transition-shadow inline-flex items-center gap-2 group">
+              <a href="https://app.lobaiseo.com/signup" className="bg-white text-blue-600 font-semibold px-8 py-4 rounded-xl hover:shadow-xl transition-shadow inline-flex items-center gap-2 group">
                 Start Your Free Trial
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>

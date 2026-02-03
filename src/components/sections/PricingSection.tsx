@@ -98,7 +98,7 @@ const PricingSection = () => {
               </div>
 
               {/* CTA Button */}
-              <a href="https://www.app.lobaiseo.com/signup" className="block w-full py-4 rounded-xl font-bold text-lg mt-8 transition-all bg-gradient-to-r from-purple-600 to-violet-600 hover:from-purple-700 hover:to-violet-700 text-white text-center">
+              <a href="https://app.lobaiseo.com/signup" className="block w-full py-4 rounded-xl font-bold text-lg mt-8 transition-all bg-gradient-to-r from-purple-600 to-violet-600 hover:from-purple-700 hover:to-violet-700 text-white text-center">
                 Start Free Trial
               </a>
             </div>
@@ -170,7 +170,7 @@ const PricingSection = () => {
               </div>
 
               {/* CTA Button */}
-              <a href="https://www.app.lobaiseo.com/signup" className="block w-full py-4 rounded-xl font-bold text-lg mt-8 transition-all bg-gradient-to-r from-purple-600 to-violet-600 hover:from-purple-700 hover:to-violet-700 text-white text-center">
+              <a href="https://app.lobaiseo.com/signup" className="block w-full py-4 rounded-xl font-bold text-lg mt-8 transition-all bg-gradient-to-r from-purple-600 to-violet-600 hover:from-purple-700 hover:to-violet-700 text-white text-center">
                 Get Started Now
               </a>
             </div>

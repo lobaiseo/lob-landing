@@ -64,7 +64,7 @@ const FinalCTASection = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12"
           >
-            <a href="https://www.app.lobaiseo.com/signup" className="group bg-white text-blue-600 font-bold px-10 py-5 rounded-xl text-xl shadow-2xl hover:shadow-white/20 transition-all flex items-center gap-3">
+            <a href="https://app.lobaiseo.com/signup" className="group bg-white text-blue-600 font-bold px-10 py-5 rounded-xl text-xl shadow-2xl hover:shadow-white/20 transition-all flex items-center gap-3">
               <Rocket className="w-6 h-6" />
               Start Your 15-Day Free Trial
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />

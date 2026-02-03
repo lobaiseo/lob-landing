@@ -90,7 +90,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16"
           >
-            <a href="https://www.app.lobaiseo.com/signup">
+            <a href="https://app.lobaiseo.com/signup">
               <Button
                 size="xl"
                 className="group bg-gradient-to-r from-primary-500 to-violet-600 hover:from-primary-600 hover:to-violet-700 text-white font-semibold px-8 py-4 text-lg shadow-2xl shadow-primary-500/50 animate-glow"
