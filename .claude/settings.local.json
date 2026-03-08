@@ -10,7 +10,12 @@
       "Bash(cmd /c \"copy /Y \"\"c:\\\\Users\\\\meena\\\\Desktop\\\\lob landing page\\\\image.png\"\" \"\"c:\\\\Users\\\\meena\\\\Desktop\\\\lob landing page\\\\public\\\\assets\\\\scheduling-dashboard.png\"\"\")",
       "Bash(findstr:*)",
       "Bash(git add:*)",
-      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit - LOBAISEO landing page\n\n- React 18 + TypeScript + Vite + Tailwind CSS\n- Framer Motion animations\n- Hero section with video background\n- Magic QR, Automated Posts, Pricing sections\n- About page with team and contact info\n- Responsive design with glassmorphism effects\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit - LOBAISEO landing page\n\n- React 18 + TypeScript + Vite + Tailwind CSS\n- Framer Motion animations\n- Hero section with video background\n- Magic QR, Automated Posts, Pricing sections\n- About page with team and contact info\n- Responsive design with glassmorphism effects\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git branch:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(dir:*)",
+      "Bash(git commit:*)"
     ]
   }
 }

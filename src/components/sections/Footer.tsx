@@ -18,8 +18,8 @@ const Footer = () => {
       { label: 'Status', href: '/status', isRoute: true },
     ],
     legal: [
-      { label: 'Privacy Policy', href: '/privacy', isRoute: true },
-      { label: 'Terms of Service', href: '/terms', isRoute: true },
+      { label: 'Privacy Policy', href: '/privacy-policy', isRoute: true },
+      { label: 'Terms of Service', href: '/terms-of-service', isRoute: true },
       { label: 'Cookie Policy', href: '/cookies', isRoute: true },
       { label: 'Refund Policy', href: '/refunds', isRoute: true },
       { label: 'GDPR Compliance', href: '/gdpr', isRoute: true },

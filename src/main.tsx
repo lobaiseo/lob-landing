@@ -39,8 +39,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <Route path="/community" element={<CommunityPage />} />
         <Route path="/status" element={<StatusPage />} />
         {/* Legal pages */}
-        <Route path="/privacy" element={<PrivacyPolicyPage />} />
-        <Route path="/terms" element={<TermsOfServicePage />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+        <Route path="/terms-of-service" element={<TermsOfServicePage />} />
         <Route path="/cookies" element={<CookiePolicyPage />} />
         <Route path="/refunds" element={<RefundPolicyPage />} />
         <Route path="/gdpr" element={<GDPRCompliancePage />} />
