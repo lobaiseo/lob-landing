@@ -42,7 +42,7 @@ const PricingSection = () => {
           </h2>
 
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            No hidden fees. No setup costs. Just a simple per-profile pricing model with a 15-day free trial.
+            No hidden fees. No setup costs. Just a simple per-profile pricing model with a 7-day free trial.
           </p>
         </motion.div>
 
@@ -188,10 +188,10 @@ const PricingSection = () => {
           <div className="bg-gradient-to-r from-blue-600 to-violet-600 rounded-2xl p-8 md:p-12 shadow-2xl">
             <Star className="w-12 h-12 text-yellow-400 mx-auto mb-4" />
             <h3 className="text-3xl md:text-4xl font-display font-bold text-white mb-4">
-              15-Day Free Trial on All Plans
+              7-Day Free Trial on All Plans
             </h3>
             <p className="text-xl text-blue-100 mb-6">
-              No credit card required. 15-day free trial. Cancel anytime.
+              No credit card required. 7-day free trial. Cancel anytime.
             </p>
 
             <div className="grid md:grid-cols-3 gap-6 max-w-2xl mx-auto">

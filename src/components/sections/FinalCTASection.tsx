@@ -66,7 +66,7 @@ const FinalCTASection = () => {
           >
             <a href="https://app.lobaiseo.com/signup" className="group bg-white text-blue-600 font-bold px-10 py-5 rounded-xl text-xl shadow-2xl hover:shadow-white/20 transition-all flex items-center gap-3">
               <Rocket className="w-6 h-6" />
-              Start Your 15-Day Free Trial
+              Start Your 7-Day Free Trial
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </a>
           </motion.div>
@@ -82,7 +82,7 @@ const FinalCTASection = () => {
             {[
               'No credit card required',
               'Cancel anytime',
-              '15-day free trial',
+              '7-day free trial',
               'Setup in 5 minutes',
             ].map((item, i) => (
               <div key={i} className="flex items-center gap-2">

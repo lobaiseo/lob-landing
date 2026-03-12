@@ -38,19 +38,19 @@ const RefundPolicyPage = () => {
                   <div className="bg-green-50 border border-green-200 rounded-xl p-6 mb-8">
                     <h3 className="text-xl font-bold text-green-800 mb-2">100% Satisfaction Guarantee</h3>
                     <p className="text-green-700">
-                      We're confident you'll love LOBAISEO. If you're not satisfied within the first 15 days, we'll refund your payment in full.
+                      We're confident you'll love LOBAISEO. If you're not satisfied within the first 7 days, we'll refund your payment in full.
                     </p>
                   </div>
 
                   <h2 className="text-2xl font-bold text-gray-900 mb-4">1. Free Trial Period</h2>
                   <p className="text-gray-600 mb-6">
-                    All new users receive a 15-day free trial with full access to all features. No credit card is required to start your trial. You can cancel anytime during the trial period without any charges.
+                    All new users receive a 7-day free trial with full access to all features. No credit card is required to start your trial. You can cancel anytime during the trial period without any charges.
                   </p>
 
                   <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Refund Eligibility</h2>
                   <p className="text-gray-600 mb-4">You are eligible for a full refund if:</p>
                   <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
-                    <li>You request a refund within 15 days of your first payment</li>
+                    <li>You request a refund within 7 days of your first payment</li>
                     <li>You experience technical issues that we cannot resolve</li>
                     <li>Our service does not perform as advertised</li>
                   </ul>
@@ -77,9 +77,9 @@ const RefundPolicyPage = () => {
                   <h2 className="text-2xl font-bold text-gray-900 mb-4">5. Non-Refundable Situations</h2>
                   <p className="text-gray-600 mb-4">Refunds are not available for:</p>
                   <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
-                    <li>Requests made after 15 days of payment</li>
+                    <li>Requests made after 7 days of payment</li>
                     <li>Accounts terminated due to Terms of Service violations</li>
-                    <li>Partial period usage (no pro-rata refunds after 15 days)</li>
+                    <li>Partial period usage (no pro-rata refunds after 7 days)</li>
                     <li>Changes in business circumstances unrelated to our service</li>
                   </ul>
 

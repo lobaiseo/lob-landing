@@ -15,7 +15,11 @@
       "Bash(git remote add:*)",
       "Bash(git push:*)",
       "Bash(dir:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "WebFetch(domain:www.lobaiseo.com)",
+      "WebFetch(domain:lobaiseo.com)",
+      "WebFetch(domain:lob-landing.onrender.com)",
+      "Bash(ls -la \"C:/Users/meena/Desktop/lob landing page/src/pages\" | grep -E \"\\\\.tsx$\")"
     ]
   }
 }

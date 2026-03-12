@@ -95,7 +95,7 @@ const HeroSection = () => {
                 size="xl"
                 className="group bg-gradient-to-r from-primary-500 to-violet-600 hover:from-primary-600 hover:to-violet-700 text-white font-semibold px-8 py-4 text-lg shadow-2xl shadow-primary-500/50 animate-glow"
               >
-                Start Free 15-Day Trial
+                Start Free 7-Day Trial
                 <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
             </a>

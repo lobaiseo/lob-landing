@@ -7,8 +7,8 @@ const HowItWorksSection = () => {
       number: '01',
       icon: UserPlus,
       title: 'Sign Up in 60 Seconds',
-      description: 'Create your account. No credit card required for the 15-day trial.',
-      highlight: '15-day free trial included'
+      description: 'Create your account. No credit card required for the 7-day trial.',
+      highlight: '7-day free trial included'
     },
     {
       number: '02',

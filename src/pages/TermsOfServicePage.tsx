@@ -58,7 +58,7 @@ const TermsOfServicePage = () => {
                   <ul className="list-disc pl-6 text-gray-600 mb-6 space-y-2">
                     <li>Semi-Annual Plan: ₹6,000 per profile for 6 months</li>
                     <li>Annual Plan: ₹9,000 per profile for 12 months</li>
-                    <li>15-day free trial available for new users</li>
+                    <li>7-day free trial available for new users</li>
                     <li>Payments processed securely through Razorpay</li>
                   </ul>
 
